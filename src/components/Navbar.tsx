@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="bg-white lg:bg-transparent flex flex-col px-4 py-2 lg:py-4 absolute z-50 w-full top-[52px]">
+    <div className="bg-white lg:bg-transparent flex flex-col px-4 py-2 lg:py-4 absolute z-40 w-full top-[52px]">
       <div className="flex h-[54px] justify-between items-center w-full lg:hidden">
         <div onClick={handleClickMenu} className="px-3 cursor-pointer">
           <Menu />
