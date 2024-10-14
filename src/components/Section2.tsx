@@ -29,7 +29,7 @@ export const Section2 = () => {
             </div>
           </div>
         </div>
-        <div className="grid sm:grid-cols-2 w-full gap-[20px] sm:p-4 md:p-8 p-6">
+        <div className="flex flex-col items-center sm:grid sm:grid-cols-2 w-full gap-[20px] sm:p-4 md:p-8 p-6">
           <Card />
           <Card />
         </div>

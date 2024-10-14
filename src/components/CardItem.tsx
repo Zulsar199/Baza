@@ -6,7 +6,7 @@ type CardItemProps = {
 };
 export const CardItem = ({ logo, text }: CardItemProps) => {
   return (
-    <div className="msm:w-[110px] w-[80px] flex flex-col items-center hover:bg-white hover:drop-shadow-lg py-1 md:py-3 rounded-2xl cursor-pointer">
+    <div className="sm:w-[110px] w-[80px] flex flex-col items-center hover:bg-white hover:drop-shadow-lg py-1 md:py-3 rounded-2xl cursor-pointer">
       <Image
         src={logo}
         width={30}

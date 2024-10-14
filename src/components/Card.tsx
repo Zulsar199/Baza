@@ -34,7 +34,7 @@ export const Card = () => {
             />
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-white z-20" />
           </div>
-          <div className="absolute top-0 left-0 w-full h-full z-30 container sm:px-10 min-[390px]:px-20 px-10 flex items-center">
+          <div className="absolute top-0 left-0 w-full h-full z-30 container sm:px-10 min-[390px]:px-[70px] px-10 flex items-center">
             <div className="w-1/2 lg:space-y-5 sm:space-y-3">
               <h2 className=" lg:text-xl sm:text-xs text-[8px] font-extrabold">
                 We know how to boost your business
@@ -61,13 +61,13 @@ export const Card = () => {
             </div>
           </div>
         </div>
-        <div className="flex text-[8px] justify-center mb-6 sm:mb-0">
+        <div className="flex text-[8px] justify-center mb-6 sm:mb-0 scale-75 sm:scale-90">
           {items.map((item) => (
-            <CardItem logo={item.logo} text={item.title} />
+            <CardItem key={item.title} logo={item.logo} text={item.title} />
           ))}
         </div>
 
-        <div className="w-full h-1/2 container px-5 md:px-10 flex items-start gap-3">
+        <div className="w-full h-1/2 container px-5 md:px-10 flex items-start gap-3 ">
           <div className="w-1/2 relative h-full">
             <div className="absolute bottom-5 w-full h-full right-0  z-10">
               <Image
@@ -91,8 +91,8 @@ export const Card = () => {
               />
             </div>
           </div>
-          <div className="w-1/2 space-y-2 sm:pt-10">
-            <div className="py-1 px-3 bg-[#CFFFF4] text-[#05CD99] w-fit text-[8px] rounded-sm text-bold">
+          <div className="w-1/2 space-y-2 sm:pt-10 min-[390px]:pr-[40px]">
+            <div className="sm:py-1 sm:px-3 py-[2px] px-[6px] bg-[#CFFFF4] text-[#05CD99] w-fit sm:text-[8px] text-[3px] rounded-sm text-bold">
               Who we are{" "}
             </div>
             <h2 className="lg:text-lg sm:text-xs text-[8px] font-extrabold">
