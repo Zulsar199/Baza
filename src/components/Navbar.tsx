@@ -16,7 +16,7 @@ export const Navbar = () => {
         <div onClick={handleClickMenu} className="px-3 cursor-pointer">
           <Menu />
         </div>
-        <h1 className="text-xl font-bold sm:text-3xl">Baza</h1>
+        <h1 className="text-xl font-bold sm:text-3xl">CIANA</h1>
         <div className="px-3">
           <Menu color="transparent" />
         </div>
@@ -28,25 +28,35 @@ export const Navbar = () => {
         }`}
       >
         <div className="px-3 h-screen">
-          <div className="py-4 border-b font-bold hover:text-blue-400 cursor-pointer">
-            Help Center
-          </div>
-          <div className="py-4 border-b font-bold hover:text-blue-400 cursor-pointer">
-            Documentation
-          </div>
+          <a href="#courses">
+            <div className="py-4 border-b font-bold hover:text-blue-400 cursor-pointer">
+              Сургалтууд
+            </div>
+          </a>
+          <a href="#about">
+            <div className="py-4 border-b font-bold hover:text-blue-400 cursor-pointer">
+              Тухай
+            </div>
+          </a>
         </div>
       </div>
-      
+
       <div className="hidden lg:block">
         <div className="flex items-center justify-between max-w-[1200px] m-auto w-full text-white">
-          <h1 className="text-xl font-bold sm:text-3xl cursor-pointer">Baza</h1>
+          <h1 className="text-xl font-bold sm:text-3xl cursor-pointer">
+            CIANA
+          </h1>
           <div className="flex gap-5">
-            <div className="font-bold hover:text-blue-400 cursor-pointer">
-              Help Center
-            </div>
-            <div className="font-bold hover:text-blue-400 cursor-pointer">
-              Documentation
-            </div>
+            <a href="#courses">
+              <div className="font-bold hover:text-blue-400 cursor-pointer">
+                Сургалтууд
+              </div>
+            </a>
+            <a href="#about">
+              <div className="font-bold hover:text-blue-400 cursor-pointer">
+                Тухай
+              </div>
+            </a>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Navbar } from "./Navbar";
+import Link from "next/link";
 
 export const Section1 = () => {
   return (
@@ -31,7 +32,7 @@ export const Section1 = () => {
       </div>
       <div className="absolute md:w-[740px] w-[390px] scale-90 top-[40%] text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 flex flex-col items-center">
         <div className="flex font-semibold text-white text-[45px] md:text-[54px]">
-          <h1>Meet</h1>
+          <h1>Сайн уу,</h1>
           <h1
             style={{
               background: "linear-gradient(to right, #FF15B3, #FCA840)",
@@ -40,19 +41,20 @@ export const Section1 = () => {
             }}
             className="ml-2"
           >
-            Baza
+            CIANA
           </h1>
         </div>
         <h1 className="font-semibold text-white text-[40px] md:text-[54px]">
-          creative WordPress theme
+          баг танд бүрэн туслана
         </h1>
         <p className="text-center text-[#98A4AC] my-4 text-lg sm:w-[500px] w-[370px] font-medium">
-          Baza is a combination of trendy design, exceptional performance and
-          ease of use. You need nothing extra. Just Baza.
+          Таны дараагийн түвшинд хүрэх пуужин
         </p>
-        <button className="px-[30px] py-[10px] bg-gradient-to-r from-[#FF15B3] to-[#FCA840] rounded-full text-white text-xl font-medium">
-          View Demo
-        </button>
+        <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeMnq2dzAjCjOKyM0XDo-2gXN_z6pYOCI93bpoxCrXMEnaiRw/viewform">
+          <button className="px-[30px] py-[10px] bg-gradient-to-r from-[#FF15B3] to-[#FCA840] rounded-full text-white text-xl font-medium drop-shadow-2xl">
+            Бүртгүүлэх
+          </button>
+        </Link>
       </div>
       <div className="absolute bouncy-element top-[320px] md:top-[250px] w-[70px] h-[70px]  md:w-[130px] md:h-[130px] xl:left-[250px] left-[30px]  z-40">
         <Image
